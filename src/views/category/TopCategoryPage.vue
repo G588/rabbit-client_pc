@@ -10,7 +10,7 @@
           }}</XtxBreadItem>
         </transition>
       </XtxBread>
-      <!--      调用轮播图组件-->
+      <!-- 调用轮播图组件-->
       <XtxCarousel
         :bannersData="bannersData"
         :style="{ height: '500px' }"
