@@ -11,30 +11,16 @@
 </template>
 
 <script>
-import { getBanners } from "@/api/home";
-import { ref } from "vue";
+import useBanners from "@/hooks/useBanners";
 
 export default {
   name: "HomeBanner",
   setup() {
-    const { bannersData, getData } = findBanners();
+    const { bannersData, getData } = useBanners();
     getData();
     return { bannersData };
   },
 };
-
-// 获取轮播图数据
-function findBanners() {
-  // 设置一个存储轮播图数据的变量
-  const bannersData = ref();
-  const getData = () => {
-    // 发送请求
-    getBanners().then((data) => {
-      bannersData.value = data.result;
-    });
-  };
-  return { bannersData, getData };
-}
 </script>
 
 <style scoped lang="less">

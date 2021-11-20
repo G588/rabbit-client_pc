@@ -5,6 +5,7 @@ import category from "./category";
 import createPersistedState from "vuex-persistedstate";
 
 const store = createStore({
+  // 配置模块
   modules: {
     user,
     cart,

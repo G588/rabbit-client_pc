@@ -50,3 +50,11 @@ export function getNewHots() {
 export function getProduct() {
   return requestWithoutToken("/home/goods", "get");
 }
+
+/**
+ * 获取主题商品
+ * @returns {Promise}
+ */
+export function getBrandTheme(limit) {
+  return requestWithoutToken("/home/special", "get", { limit });
+}
