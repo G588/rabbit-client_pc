@@ -8,14 +8,12 @@
 ------
 
 - [ ] 在 `HomeCategory` 组件中添加弹层基础结构和样式
-
 - [ ] 当鼠标移入分类列表时记录当前移入的分类
-
 - [ ] 根据当前移入的分类渲染对应的推荐商品至模板
 
-- [ ] <img src="./images/103.png" align="left"/>
+<img src="./images/103.png" align="left"/>
 
-  
+
 
 ### :point_right: 实现左侧分类列表品牌推荐
 
@@ -23,7 +21,7 @@
 
 `api/home.js` [首页-热门品牌](http://zhoushugang.gitee.io/erabbit-client-pc-document/api.html#u9996u9875-u70edu95e8u54c1u724c0a3ca20id3du9996u9875-u70edu95e8u54c1u724c3e203ca3e)
 
-<img src="README.assets/104.png" />
+<img src="./images/104.png" />
 
 ------
 
@@ -39,21 +37,8 @@
 ### :point_right: 实现左侧分类骨架效果
 
 目标: 创建一个通用的用于实现骨架效果的组件, 实现左侧分类骨架效果
-<img src="README.assets/125.png" align="left" width="18%" alt=""/>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+<img src="./images/125.png" align="left" width="18%" alt=""/>
 
 
 
@@ -61,7 +46,7 @@
 
 目标：实现轮播图布局
 
-![](README.assets/105.png)
+<img src="./images/105.png" />
 
 
 
@@ -88,12 +73,12 @@
 ### :point_right: 封装面板组件
 
 目标: 封装首页公共面板组件, 封装查看更多组件
-<img src="README.assets/30.png" />
+<img src="./images/30.png" />
 
 
 
 ### :point_right: 实现新鲜好物
 
 目标: 实现新鲜好物组件数据渲染
-<img src="README.assets/106.png" />
+<img src="./images/106.png" />
 
