@@ -58,3 +58,11 @@ export function getProduct() {
 export function getBrandTheme(limit) {
   return requestWithoutToken("/home/special", "get", { limit });
 }
+
+/**
+ * 获取二级分类筛选条件
+ * @returns {Promise}
+ */
+export function getSubFilter(id) {
+  return requestWithoutToken("/category/sub/filter", "get", { id });
+}

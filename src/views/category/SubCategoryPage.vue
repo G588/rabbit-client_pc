@@ -11,6 +11,8 @@
           <XtxBreadItem>{{ result.subCategory?.name }}</XtxBreadItem>
         </transition>
       </XtxBread>
+      <!-- 渲染组件-->
+      <SubFilter></SubFilter>
     </div>
   </LayoutTemplate>
 </template>
@@ -22,15 +24,16 @@ import XtxBreadItem from "@/components/library/XtxBreadItem";
 import { useStore } from "vuex";
 import { useRoute } from "vue-router";
 import { computed } from "vue";
+import SubFilter from "@/views/category/components/SubFilter";
 export default {
   name: "SubCategoryPage",
-  components: { LayoutTemplate, XtxBread, XtxBreadItem },
+  components: { SubFilter, LayoutTemplate, XtxBread, XtxBreadItem },
   setup() {
     const result = useBread();
     return { result };
   },
 };
-// 获取一级分类和二级分类
+// 获取一级分类和二级分类方法
 function useBread() {
   const store = useStore();
   const route = useRoute();
@@ -41,7 +44,6 @@ function useBread() {
       topCategory.children?.forEach((subCategory) => {
         // 查找当前二级分类
         if (subCategory.id === route.params.id) {
-          console.log(11);
           // 存储一级分类
           result.topCategory = {
             name: topCategory.name,

@@ -15,12 +15,12 @@
         :bannersData="bannersData"
         :style="{ height: '500px' }"
       ></XtxCarousel>
-      <!--      获取二级分类列表数据-->
+      <!--获取二级分类列表数据-->
       <ShowSubCategoryList
         v-if="topCategory"
         :subCategories="topCategory.children"
       />
-      <!--      推荐商品-->
+      <!--推荐商品-->
       <RecommendGoods />
     </div>
   </LayoutTemplate>
