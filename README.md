@@ -38,9 +38,9 @@
 
 目标: 创建一个通用的用于实现骨架效果的组件, 实现左侧分类骨架效果
 
-<img src="./images/125.png" align="left" width="18%" alt=""/>
 
 
+<img src="./images/125.png" width="18%"/>
 
 ### :point_right: 首页轮播图布局
 
