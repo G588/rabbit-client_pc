@@ -13,10 +13,10 @@
 > ------
 
 - [ ] 在 `HomeCategory` 组件中添加弹层基础结构和样式
-
 - [ ] 当鼠标移入分类列表时记录当前移入的分类
-
 - [ ] 根据当前移入的分类渲染对应的推荐商品至模板
+
+-----
 
 <img src="./images/103.png" />
 
@@ -26,11 +26,6 @@
 
 >  目标: 实现品牌推荐数据的获取和渲染
 >
->  ------
-
-`api/home.js` [首页-热门品牌](http://zhoushugang.gitee.io/erabbit-client-pc-document/api.html#u9996u9875-u70edu95e8u54c1u724c0a3ca20id3du9996u9875-u70edu95e8u54c1u724c3e203ca3e)
-
-<img src="./images/104.png" />
 
 ------
 
@@ -41,6 +36,9 @@
 
 ------
 
+`api/home.js` [首页-热门品牌](http://zhoushugang.gitee.io/erabbit-client-pc-document/api.html#u9996u9875-u70edu95e8u54c1u724c0a3ca20id3du9996u9875-u70edu95e8u54c1u724c3e203ca3e)
+
+<img src="./images/104.png" />
 
 
 ### :point_right: 实现左侧分类骨架效果
@@ -107,8 +105,10 @@
 ### :point_right:   渲染面包屑导航
 
 > 目标：渲染面包屑导航组件
+>
+> ----
 
-<img src="README.assets/124.png" />
+<img src="./images/124.png" />
 
 ------
 
@@ -130,8 +130,10 @@
 ### :point_right:   图片预览组件
 
 > 目标: 实现图片预览组件布局及图片切换效果
+>
+> ----
 
-<img src="README.assets/37.png"/>
+<img src="./images/37.png"/>
 
 ------
 
@@ -145,7 +147,7 @@
 
 > 目标: 实现商品图片的放大镜效果
 
-<img src="README.assets/36.png" />
+<img src="./images/36.png" />
 
 ------
 
