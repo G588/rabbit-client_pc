@@ -1,5 +1,5 @@
 <template>
-  <RouterLink to="/" class="goods-item">
+  <RouterLink to="/goods/1" class="goods-item">
     <img
       src="http://zhoushugang.gitee.io/erabbit-client-pc-static/uploads/fresh_goods_2.jpg"
       alt=""

@@ -2,6 +2,7 @@ import { createRouter, createWebHashHistory } from "vue-router";
 import HomePage from "@/views/home/HomePage";
 import TopCategoryPage from "@/views/category/TopCategoryPage";
 import SubCategoryPage from "@/views/category/SubCategoryPage";
+const GoodsDetailPage = () => import("@/views/goods/GoodsDetailPage");
 // 配置路由规则
 const routes = [
   {
@@ -15,6 +16,10 @@ const routes = [
   {
     path: "/category/sub/:id",
     component: SubCategoryPage,
+  },
+  {
+    path: "/goods/:id",
+    component: GoodsDetailPage,
   },
 ];
 

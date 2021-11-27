@@ -24,6 +24,7 @@ import lazy from "@/components/directives/lazy";
 
 // 批量导入模块
 const importFn = require.context("./", false, /\.vue$/);
+
 // 获取匹配的文件的路径
 const keys = importFn.keys();
 
