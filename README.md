@@ -18,8 +18,7 @@
 
 - [ ] 根据当前移入的分类渲染对应的推荐商品至模板
 
-
-<img src="./images/103.png" align="left"/>
+<img src="./images/103.png" />
 
 
 
