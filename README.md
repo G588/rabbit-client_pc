@@ -17,7 +17,7 @@
 
 -----
 
-<img alt="" src="./images/103.png" />
+<img src="./images/103.png" />
 
 
 
@@ -48,7 +48,7 @@
 
 
 
-<img src="./images/125.png" width="18%" alt=""/>
+<img src="./images/125.png" width="18%"/>
 
 ### :point_right: 首页轮播图布局
 
@@ -56,7 +56,7 @@
 >
 > ------
 
-<img src="./images/105.png" alt="" />
+<img src="./images/105.png" />
 
 
 
@@ -88,7 +88,7 @@
 
 ------
 
-<img src="./images/30.png"  alt=""/>
+<img src="./images/30.png" />
 
 
 
@@ -169,7 +169,7 @@
 
 > 目标: 创建商品销售信息组件实现基础布局, 创建商品基本信息组件实现基础布局并渲染商品基本信息
 
-<img src="README.assets/38.png" />
+<img src="./images/38.png" />
 
 ------
 
@@ -419,7 +419,7 @@ export default {
 
 > 目标：创建城市选择组件, 实现基础布局
 
-<img src="README.assets/39.png" />
+<img src="./images/39.png" />
 
 ------
 
@@ -562,7 +562,7 @@ export default {
 
 > 目标：实现城市选择组件中城市数据的获取, 加载过程的提示效果
 
-<img src="README.assets/126.png" />
+<img src="./images/126.png" />
 
 ------
 
