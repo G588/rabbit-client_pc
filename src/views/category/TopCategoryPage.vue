@@ -1,7 +1,10 @@
 <template>
-  <LayoutTemplate>
-    <!--版心-->
+  <AppLayout v-bind="$attrs">
     <div class="container">
+      <!--
+          由于 category.list 一开始是假数据 我们从中查询不到我们需要的数据
+          所以在此需要判断 topCategory 是否存在 如果存在再找name属性
+        -->
       <XtxBread>
         <XtxBreadItem path="/">首页</XtxBreadItem>
         <transition name="fade-right" mode="out-in">
@@ -10,63 +13,57 @@
           }}</XtxBreadItem>
         </transition>
       </XtxBread>
-      <!-- 调用轮播图组件-->
+      <!-- 调用轮播图组件 -->
       <XtxCarousel
-        :bannersData="bannersData"
-        :style="{ height: '500px' }"
-      ></XtxCarousel>
-      <!--获取二级分类列表数据-->
+        :carousels="banners"
+        :style="{
+          height: '500px',
+        }"
+      />
+      <!-- 全部二级分类 -->
       <ShowSubCategoryList
         v-if="topCategory"
         :subCategories="topCategory.children"
       />
-      <!--推荐商品-->
+      <!-- 二级分类商品推荐 -->
       <RecommendGoods />
     </div>
-  </LayoutTemplate>
+  </AppLayout>
 </template>
 
 <script>
-import LayoutTemplate from "@/components/AppLayout";
+import AppLayout from "@/components/AppLayout";
 import XtxBread from "@/components/library/XtxBread";
-import XtxBreadItem from "@/components/library/XtxBreadItem";
-import { computed } from "vue";
 import { useStore } from "vuex";
 import { useRoute } from "vue-router";
+import { computed } from "vue";
 import useBanners from "@/hooks/useBanners";
-import XtxCarousel from "@/components/library/XtxCarousel";
 import ShowSubCategoryList from "@/views/category/components/ShowSubCategoryList";
 import RecommendGoods from "@/views/category/components/RecommendGoods";
 export default {
   name: "TopCategoryPage",
-  components: {
-    RecommendGoods,
-    ShowSubCategoryList,
-    XtxCarousel,
-    XtxBreadItem,
-    XtxBread,
-    LayoutTemplate,
-  },
+  components: { RecommendGoods, ShowSubCategoryList, XtxBread, AppLayout },
   setup() {
-    const topCategory = useTopCategory();
+    const topCategory = useCategory();
+    // banners 轮播数据
+    // getData 获取轮播图数据的方法
+    const { banners, getData } = useBanners();
     // 获取轮播图数据
-    const { bannersData, getData } = useBanners();
-    getData();
-    return { bannersData, topCategory };
+    getData(2);
+    return { topCategory, banners };
   },
 };
 
-// 获取一级分类数据
-function useTopCategory() {
-  // 引入store
+function useCategory() {
+  // 获取 store 对象
   const store = useStore();
-  // 引入路由
+  // 获取 route 对象
   const route = useRoute();
-  // 使用计算属性 ,因为页面一上来是没有数据的
   return computed(() => {
-    // 数据遍历
+    // 根据id查找一级分类数据
+    // id 从路由参数中获取
     return store.state.category.list.find(
-      (category) => category.id === route.params.id
+      (item) => item.id === route.params.id
     );
   });
 }
