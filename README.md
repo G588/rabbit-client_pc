@@ -5,7 +5,7 @@
 小兔鲜项目
 
 
-### :point_right: 实现左侧分类列表商品推荐
+## :point_right: 实现左侧分类列表商品推荐
 
 > 目标: 完成左侧分类弹层中的分类商品推荐基础布局及数据渲染
 >
@@ -21,7 +21,7 @@
 
 
 
-### :point_right: 实现左侧分类列表品牌推荐
+## :point_right: 实现左侧分类列表品牌推荐
 
 >  目标: 实现品牌推荐数据的获取和渲染
 >
@@ -40,7 +40,7 @@
 <img src="./images/104.png" />
 
 
-### :point_right: 实现左侧分类骨架效果
+## :point_right: 实现左侧分类骨架效果
 
 > 目标: 创建一个通用的用于实现骨架效果的组件, 实现左侧分类骨架效果
 >
@@ -50,7 +50,7 @@
 
 <img src="./images/125.png" width="18%"/>
 
-### :point_right: 首页轮播图布局
+## :point_right: 首页轮播图布局
 
 > 目标：实现轮播图布局
 >
@@ -60,7 +60,7 @@
 
 
 
-### :point_right: 首页轮播图渲染结构
+## :point_right: 首页轮播图渲染结构
 
 >[首页-广告区域(pc-小程序)](http://zhoushugang.gitee.io/erabbit-client-pc-document/api.html#u9996u9875-u5e7fu544au533au57df28pc-u5c0fu7a0bu5e8f290a3ca20id3du9996u9875-u5e7fu544au533au57df28pc-u5c0fu7a0bu5e8f293e203ca3e)
 >
@@ -68,7 +68,7 @@
 
 
 
-### :point_right: 首页轮播图逻辑封装
+## :point_right: 首页轮播图逻辑封装
 
 > 目标: 实现轮播图轮播及自动轮播逻辑
 
@@ -82,7 +82,7 @@
 
 
 
-### :point_right: 封装面板组件
+## :point_right: 封装面板组件
 
 > 目标: 封装首页公共面板组件, 封装查看更多组件
 
@@ -92,7 +92,7 @@
 
 
 
-### :point_right: 实现新鲜好物
+## :point_right: 实现新鲜好物
 
 > 目标: 实现新鲜好物组件数据渲染
 ------
@@ -101,7 +101,7 @@
 
 
 
-### :point_right:   渲染面包屑导航
+## :point_right:   渲染面包屑导航
 
 > 目标：渲染面包屑导航组件
 >
@@ -126,7 +126,7 @@
 
 
 
-### :point_right:   图片预览组件
+## :point_right:   图片预览组件
 
 > 目标: 实现图片预览组件布局及图片切换效果
 >
@@ -142,7 +142,7 @@
 
 
 
-### :point_right:  实现放大镜效果
+## :point_right:  实现放大镜效果
 
 > 目标: 实现商品图片的放大镜效果
 
@@ -165,7 +165,7 @@
   
      
 
-### :point_right:   商品基本信息展示
+## :point_right:   商品基本信息展示
 
 > 目标: 创建商品销售信息组件实现基础布局, 创建商品基本信息组件实现基础布局并渲染商品基本信息
 
@@ -415,7 +415,7 @@ export default {
 
 
 
-### :point_right: 城市选择组件-基础布局
+## :point_right: 城市选择组件-基础布局
 
 > 目标：创建城市选择组件, 实现基础布局
 
@@ -558,7 +558,7 @@ export default {
 
 
 
-### :point_right:  城市选择组件-获取数据
+## :point_right:  城市选择组件-获取数据
 
 > 目标：实现城市选择组件中城市数据的获取, 加载过程的提示效果
 
@@ -599,7 +599,7 @@ chainWebpack: (config) => {
 
 
 
-### :point_right: 城市选择组件-交互逻辑
+## :point_right: 城市选择组件-交互逻辑
 
 > 目标: 实现城市组件的交互逻辑: 渲染城市数据信息, 收集用户选择的城市信息
 
@@ -745,7 +745,7 @@ export default {
 };
 ```
 
-## 11. 规格组件-数据渲染与选中
+### :point_right:11. 规格组件-数据渲染与选中
 
 > 目标: 实现规格组件渲染, 实现规格的选中效果
 
@@ -806,7 +806,7 @@ export default {
 };
 ```
 
-## 12. 规格组件-禁选效果分析
+## :point_right:12. 规格组件-禁选效果分析
 
 > 目标: 分析规格选项禁用效果的实现思路
 
@@ -853,7 +853,7 @@ export default {
 }
 ```
 
-## 13. 规格组件-禁用效果实现
+## :point_right:规格组件-禁用效果实现
 
 > 目标: 实现规格选项的禁用效果
 
@@ -1081,7 +1081,7 @@ function updateDisabled(specs, pathMap) {
 }
 ```
 
-## 14. 规格组件通讯-默认选中
+## :point_right: 规格组件通讯-默认选中
 
 > 目标: 调用 `GoodsSku` 组件时如果传递了 skuId, 实现规格组件的默认选中效果
 
@@ -1147,7 +1147,7 @@ setup (props) {
 }
 ```
 
-## 15. 规格组件通讯-数据回传
+## :point_right: 规格组件通讯-数据回传
 
 > 目标: 用户选择完规格时, 将规格相关数据回传到父组件.
 
@@ -1231,7 +1231,7 @@ setup () {
 }
 ```
 
-## 16. 商品数量选择组件
+## :point_right:商品数量选择组件
 
 > 目标: 封装商品数量选择组件, XtxNumberBox.vue
 
@@ -1381,7 +1381,7 @@ setup () {
 }
 ```
 
-## 17. 按钮组件
+## :point_right:按钮组件
 
 > 目标: 封装一个通用按钮组件
 >
@@ -1486,21 +1486,10 @@ export default {
   <XtxButton type="primary" :style="{'margin-top': '20px'}">加入购物车</XtxButton>
 </div>
 ```
----
-title: 小兔鲜项目
-date: 2021-11-22
-sidebar: 'auto'
----
-
-## 商品详情
-### 规格组件
-#### 数据渲染和选中 
-#### 禁用效果实现 
-#### 默认选中
-#### 数据回传
+## :point_right: 商品详情
 
 
-## 1. 基础布局
+## :point_right:1. 基础布局
 
 > 目标：创建商品详情页面组件，搭建布局结构, 创建商品详情页面组件路由规则
 
@@ -1648,7 +1637,7 @@ const routes = [
 <RouterLink :to="`/goods/${goods.id}`" class="goods-item"></RouterLink>
 ```
 
-## 2. 渲染面包屑导航
+## :point_right: 2. 渲染面包屑导航
 
 > 目标：渲染面包屑导航组件
 
@@ -1736,9 +1725,11 @@ export default {
 </XtxBread>
 ```
 
-## 3. 图片预览组件
+## :point_right: 3. 图片预览组件
 
 > 目标: 实现图片预览组件布局及图片切换效果
+>
+> <img src="./images/37.png"/>
 
 ------
 
@@ -1890,9 +1881,11 @@ export default {
 </script>
 ```
 
-## 4. 实现放大镜效果
+## :point_right: 4. 实现放大镜效果
 
 > 目标: 实现商品图片的放大镜效果
+>
+> <img src="./images/36.png" />
 
 ------
 
@@ -3440,79 +3433,7 @@ export default {
 </style>
 ```
 
-第二步: 在商品详情页面组件 `GoodsDetailPage` 中调用 `XtxNumberBox` 组件
 
-```html
-<div class="spec">
-  <XtxNumberBox />
-</div>
-```
-
-第三步: 实现更改商品数量更能 (双向数据绑定)
-
-```html
-<template>
-  <div class="xtx-number-box">
-    <div class="label">{{ label }}</div>
-    <div class="number-box">
-      <a @click="onNumberChangeHandler(-1)" href="javascript:">-</a>
-      <input type="text" readonly :value="number" />
-      <a @click="onNumberChangeHandler(1)" href="javascript:">+</a>
-    </div>
-  </div>
-</template>
-<script>
-import { useVModel } from "@vueuse/core";
-
-export default {
-  name: "XtxNumberBox",
-  props: {
-    max: {
-      type: Number,
-      default: 1,
-    },
-    modelValue: {
-      type: Number,
-      default: 1,
-    },
-    label: {
-      type: String,
-      default: "",
-    },
-  },
-  setup(props, { emit }) {
-    // 实现双向数据绑定
-    const number = useVModel(props, "modelValue", emit);
-    // 用于改变商品数量的方法
-    const onNumberChangeHandler = (step) => {
-      const nextNumber = number.value + step;
-      if (nextNumber < 1) {
-        number.value = 1;
-      } else if (nextNumber > props.max) {
-        number.value = props.max;
-      } else {
-        number.value = nextNumber;
-      }
-    };
-    return { number, onNumberChangeHandler };
-  },
-};
-</script>
-```
-
-第四步: 在商品详情页面中调用 `xtx-numbox` 组件时传递相关数据
-
-```vue
-<XtxNumberBox label="数量" :max="result.inventory" v-model="count" />
-```
-
-```javascript
-setup () {
-  // 存储用户选择的商品数量
-  const count = ref(1)
-  return { count }
-}
-```
 
 ## 17. 按钮组件
 
@@ -3693,182 +3614,11 @@ export default {
 </style>
 ```
 
-第二步: 在商品详情页面组件中调用同类商品组件时传入商品id
-
-`goods/components/GoodsDetailPage.vue`
-
-```vue
-<GoodsRelevant :goodsId="result.id"></GoodsRelevant>
-```
-
-`views/goods/components/GoodsRelevant.vue`
-
-```javascript
-export default {
-  props: {
-    goodsId: {
-      type: String,
-    },
-  }
-};
-```
 
 第三步: 创建用于获取同类商品的API接口函数
 
 `api/goods.js` [同类推荐(也支持猜你喜欢)](http://zhoushugang.gitee.io/erabbit-client-pc-document/api.html#u540cu7c7bu63a8u835028u4e5fu652fu6301u731cu4f60u559cu6b22290a3ca20id3du540cu7c7bu63a8u835028u4e5fu652fu6301u731cu4f60u559cu6b22293e203ca3e)
 
-```javascript
-/**
- * 获取相关商品、猜你喜欢
- * @param id 商品id - 如果传了id参数表示获取相关商品数据, 如果没有传id参数表示获取猜你喜欢数据
- * @return {AxiosPromise}
- */
-export function getRelevantGoods(id, limit = 16) {
-  return request("/goods/relevant", "get", { id, limit });
-}
-```
-
-第四步: 在同类商品组件中调用接口函数获取数据, 并将数据结构更新为轮播图组件所需数据结构
-
-以前轮播图数据是一个数组中包含多个对象, 每个对象就是一张轮播图的信息 `[{}, {}]`
-
-现在我们将四个商品信息看做一张轮播图信息, 所以数据结构应该是 `[[{},{},{},{}], [{},{},{},{}]]`
-
-`views/goods/components/GoodsRelevant.vue`
-
-```javascript
-import { getRelevantGoods } from "@/api/goods";
-import { ref } from 'vue'
-
-function useRelativeGoods (goodsId) {
-  // 轮播图需要的数据结构 [[{}],[{}],[{}]]
-  const carousels = ref([]);
-  // 发送请求获取数据
-  getRelevantGoods(goodsId).then((data) => {
-    // 每页显示4条数据
-    const size = 4
-    // 一共有多少页数据
-    // 只有计算出了一共有多少页, 才能知道循环多少次才能将数据拆分完成
-    const total = Math.ceil(data.result.length / size)
-    carousels.value = []
-    // 组织数据结构
-    for (let i = 0; i < total; i++) {
-      // 第一页: 0-3 第二页: 4-7 第三页: 8-11
-      // 从哪开始取: i*size
-      // 取到哪 i*size + size, 由于 slice 方法在截取时不包含第二个参数位置的元素, 所以是 + size, 不是 + size - 1
-      carousels.value.push(data.result.slice(i * size, i * size + size));
-    }
-  })
-  return carousels
-}
-```
-
-<img src="./images/131.png" align="left"/>
-
-```javascript
-export default {
-  setup (props) {
-    // 获取轮播图所需数据数据
-    const carousels = useRelativeGoods(props.goodsId)
-    return { carousels }
-  }
-}
-```
-
-第五步: 在同类商品组件中调用轮播图组件并传入轮播图所需数据
-
-`views/goods/components/GoodsRelevant.vue`
-
-```vue
-<XtxCarousel :carousels="carousels" />
-```
-
-第六步: 在轮播图组件中添加同类商品数据所需结构并渲染同类商品数据
-
-`components/library/xtxCarousel.vue`
-
-```vue
-<li class="carousel-item" :class="{ fade: index === currentIndex }" v-for="(item, index) in carousels" :key="item.id">
-	<!-- 如果 item 是数组就表示当前遍历的同类商品数据 -->
-  <div class="slider" v-if="Array.isArray(item)">
-    <router-link v-for="goods in item" :key="goods.id" :to="`/goods/${goods.id}`">
-      <img :src="goods.picture" alt=""/>
-      <p class="name ellipsis">{{ goods.name }}</p>
-      <p class="price">&yen;{{ goods.price }}</p>
-    </router-link>
-  </div>
-  <!-- 如果 item 是对象就表示当前遍历的是普通轮播图数据 -->
-  <router-link :to="item.hrefUrl" v-else>
-  	<img :src="item.imgUrl" alt="" />
-  </router-link>
-</li>
-```
-
-`components/library/XtxCarousel.vue`
-
-```less
-.slider {
-  display: flex;
-  justify-content: space-around;
-  padding: 0 40px;
-  > a {
-    width: 240px;
-    text-align: center;
-    img {
-      padding: 20px;
-      width: 230px !important;
-      height: 230px !important;
-    }
-    .name {
-      font-size: 16px;
-      color: #666;
-      padding: 0 40px;
-    }
-    .price {
-      font-size: 16px;
-      color: @priceColor;
-      margin-top: 15px;
-    }
-  }
-}
-```
-
-第七步: 在同类商品组件中覆盖轮播图样式, 更正轮播按钮位置
-
-`views/goods/components/GoodsRelevant.vue`
-
-```less
-.goods-relevant {
-	:deep(.xtx-carousel) {
-    height: 380px;
-    .carousel {
-      &-indicator {
-        bottom: 30px;
-        span {
-          &.active {
-            background: @xtxColor;
-          }
-        }
-      }
-      &-btn {
-        top: 110px;
-        opacity: 1;
-        background: rgba(0,0,0,0);
-        color: #ddd;
-        i {
-          font-size: 30px;
-        }
-      }
-    }
-  }
-}
-```
-
-第八步: 动态生成同类商品组件中的标题部分: 同类商品、猜你喜欢
-
-```html
-<span class="title">{{goodsId ? '同类商品': '猜你喜欢'}}</span>
-```
 
 ## 19. 标签页组件
 
@@ -3940,99 +3690,6 @@ export default {
 </style>
 ```
 
-第二步: 在商品详情页组件中调用标签页组件
-
-`views/goods/GoodsDetailPage.vue`
-
-```html
-<div class="goods-article">
-  <!-- 商品+评价 -->
-  <GoodsTab />
-</div>
-```
-
-```javascript
-import GoodsTab from "@/views/goods/components/GoodsTab";
-export default {
-  components: { GoodsTab }
-}
-```
-
-第三步: 实现标签页组件中标题的切换效果
-
-```html
-<template>
-  <a
-    @click="activeComponentName = 'GoodsDetail'"
-    :class="{ active: activeComponentName === 'GoodsDetail' }"
-    >商品详情</a
-  >
-  <a
-    @click="activeComponentName = 'GoodsComment'"
-    :class="{ active: activeComponentName === 'GoodsComment' }"
-    >商品评价<span>(500+)</span></a
-  >
-</template>
-<script>
-import { ref } from 'vue'
-export default {
-  name: 'GoodsTab',
-  setup () {
-    // GoodsDetail 展示商品详细信息、GoodsComment 展示商品评论信息
-    const activeComponentName = ref("GoodsDetail");
-    return { activeComponentName };
-  }
-}
-</script>
-```
-
-第四步: 实现标签页内容切换效果 (商品详情组件和商品评价组件)
-
-创建商品详情页组件 `views/goods/components/GoodsDetail.vue`
-
-```vue
-<template>商品详情</template>
-<script>
-export default {
-  name: "GoodsDetail",
-};
-</script>
-```
-
-创建商品评价页组件 `views/goods/components/GoodsComment.vue`
-
-```vue
-<template>商品评价</template>
-<script>
-export default {
-  name: "GoodsComment",
-};
-</script>
-```
-
-在标签页组件中调用以上两个组件并实现切换效果
-
-`views/goods/component/GoodsTab.vue`
-
-```vue
-<GoodsDetail v-if="activeComponentName==='GoodsDetail'"></GoodsDetail>
-<GoodsComment v-if="activeComponentName==='GoodsComment'"></GoodsComment>
-```
-
-```vue
-<!-- 根据组件名称动态渲染组件 -->
-<component :is="activeComponentName"></component>
-```
-
-```javascript
-import GoodsDetail from "@/views/goods/components/GoodsDetail";
-import GoodsComment from "@/views/goods/components/GoodsComment";
-
-export default {
-  components: { GoodsDetail, GoodsComment },
-};
-```
-
 ## 20. 热榜组件
 
 > 目标: 实现热榜组件数据渲染
@@ -4097,107 +3754,10 @@ export default {
 </style>
 ```
 
-第二步: 在商品详情页页面组件中调用热榜组件
-
-`views/goods/GoodsDetailPage.vue`
-
-```html
-<div class="goods-aside">
-  <GoodsHot />
-</div>
-```
 
 第三步: 创建用于获取热榜数据的 API 函数
 
 `api/goods.js` [热销推荐](http://zhoushugang.gitee.io/erabbit-client-pc-document/api.html#u70edu9500u63a8u83500a3ca20id3du70edu9500u63a8u83503e203ca3e)
-
-```javascript
-/**
- * 获取热销商品
- * @param id 商品ID, 根据该商品推荐其同类的热销商品
- * @param limit 获取多少条商品数据
- * @param type 热销类型, 1为24小时，2为周榜，3为总榜，默认为1
- * @return {AxiosPromise}
- */
-export function getHotGoodsApi({ id, limit = 3, type = 1 }) {
-  return request("/goods/hot", "get", { id, limit, type });
-}
-```
-
-第四步: 在商品详情页面组件中调用热榜组件时传递榜单类型, 用以显示标题和数据获取
-
-`views/goods/GoodsDetailPage.vue`
-
-```vue
-<div class="goods-aside">
-  <GoodsHot :type="1" />
-  <GoodsHot :type="2" />
-  <GoodsHot :type="3" />
-</div>
-```
-
-`views/goods/components/GoodsHot.vue`
-
-```javascript
-export default {
-  props: {
-    type: {
-      type: Number,
-      default: 1,
-    },
-  }
-};
-```
-
-第五步: 在热销组件中获取并渲染热销商品数据
-
-```javascript
-function useHotGoods(type) {
-  // 获取路由信息对象
-  const route = useRoute();
-  // 用于存储热销商品数据
-  const hotGoods = ref(null);
-  // 榜单名称
-  const names = { 1: "24小时热销榜", 2: "周热销榜", 3: "总热销榜" };
-  // 用于获取热销商品数据
-  const getHotGoods = (id) => {
-    // 发送请求获取热销商品数据
-    getHotGoodsApi({ id, type }).then((data) => {
-      // 存储热销商品数据
-      hotGoods.value = data.result;
-    });
-  };
-  // 初始调用获取热销商品数据
-  getHotGoods(route.params.id);
-  // 当路由更新时重新获取热榜数据
-  onBeforeRouteUpdate((to) => getHotGoods(to.params.id));
-  // 返回热销商品数据
-  return { hotGoods, typeName: names[type] };
-}
-```
-
-```javascript
-export default {
-  setup(props) {
-    // 获取热销商品数据
-    const { hotGoods, typeName } = useHotGoods(props.type);
-    return { hotGoods, typeName };
-  },
-};
-```
-
-```vue
-<template>
-  <div class="goods-hot" v-if="hotGoods">
-    <h3>{{ typeName }}</h3>
-    <GoodsItem
-      v-for="goods in hotGoods"
-      :key="goods.id"
-      :goods="goods"
-    ></GoodsItem>
-  </div>
-</template>
-```
 
 ## 21. 详情组件
 
@@ -4210,33 +3770,6 @@ export default {
 - [ ] 在标签页组件中获取商品数据渲染评论数量
 
 ------
-
-第一步: 在商品详情页页面组件中将商品详情数据通过 provide 开放到子组件
-
-`views/goods/GoodsDetailPage.vue`
-
-```javascript
-import { provide } from 'vue'
-// 将 product 数据开放到子组件
-provide('result', result)
-```
-
-第二步: 在商品详情组件中通过 reject 获取商品详情信息 result
-
-`result.details.properties`: 商品详情属性集合
-`result.details.pictures`: 商品详情图片集合
-
-`views/goods/components/GoodsDetail.vue`
-
-```javascript
-import { inject } from 'vue'
-export default {
-  setup () {
-    const result = inject('result')
-    return { result }
-  }
-}
-```
 
 ```vue
 <!-- 静态布局 -->
@@ -4380,26 +3913,7 @@ const result = inject('result')
 </style>
 ```
 
-第二步: 在商品详情页面组件中调用注意事项组件
 
-`views/goods/GoodsDetailPage.vue`
-
-```vue
-<template>
-<div class="goods-footer">
-  <div class="goods-article">
-    <!-- 注意事项 -->
-    <GoodsWarn />
-  </div>
-</div>
-</template>
-<script>
-import GoodsWarn from "@/views/goods/components/GoodsWarn";
-export default {
-  components: { GoodsWarn },
-}
-</script>
-```
 
 ## 23. 评价组件-头部渲染
 
